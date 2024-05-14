@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devanagari to Modi Converter</title>
+    <link rel="stylesheet" href="d2m.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Modi&family=Tiro+Devanagari+Marathi:ital@0;1&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Devanāgarī to Moḍī Converter</h1>
+    </header>
+    <main>
+        <div class="converter">
+            <div class="input-container">
+                <label for="devanagari">Marāṭhī in Devanāgarī Script</label>
+                <textarea id="devanagari" placeholder="Enter Devanāgarī text..."></textarea>
+            </div>
+            <div class="input-container">
+                <label for="modi">Marāṭhī in Moḍī Script</label>
+                <textarea id="modi" placeholder="Converted Moḍī text will appear here..." readonly></textarea>
+            </div>
+        </div>
+        <div class="converter">
+            <button id="convert-btn">Convert</button>
+            <button id="copy-btn" disabled="true">Copy</button>
+        </div>
+        <p><strong>Note:</strong> As moḍī script unicode doesn't have sufficient characters as replacements for all the devanāgarī characters,
+            this converter cannot convert them.</p>
+    </main>
+    <footer>
+        <p>Made by Atharv in May 2024</p>
+    </footer>
+    <script src="d2m.js"></script>
+</body>
+
+</html>
