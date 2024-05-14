@@ -1,10 +1,10 @@
-# Devanagari to Moḍī Converter
+# Devanāgarī to Moḍī Converter
 
-This is a web application that converts Marathi text from Devanagari script to Moḍī script.
+This is a web application that converts Marathi text from Devanāgarī script to Moḍī script.
 
 ## Usage
 
-1. Enter Marathi text in Devanagari script into the input field labeled "Marāṭhī in Devanāgarī Script".
+1. Enter Marathi text in Devanāgarī script into the input field labeled "Marāṭhī in Devanāgarī Script".
 2. Click on the "Convert" button to convert the text into Moḍī script.
 3. The converted text will appear in the adjacent textarea labeled "Marāṭhī in Moḍī Script".
 4. Click on the "Copy" button to copy the converted text to the clipboard.
