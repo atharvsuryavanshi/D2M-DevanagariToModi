@@ -19,6 +19,10 @@ As the Moḍī script unicode doesn't have sufficient characters as replacements
 - CSS
 - JavaScript (jQuery)
 
+## Access the Converter
+
+Go and access the [Devanāgarī to Moḍī Converter](https://atharvsuryavanshi.github.io/D2M-DevanagariToModi/d2m.html).
+
 ## Author
 
 Atharv Suryavanshi
